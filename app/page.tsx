@@ -43,8 +43,8 @@ export default function HomePage() {
           </div>
 
           <div className="max-w-4xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center mb-12">
-              {featuredProducts.map((product) => (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center mb-12">
+              {featuredProducts.slice(0, 2).map((product) => (
                 <ProductCard key={product.id} product={product} onDetailClick={openProductDetail} />
               ))}
             </div>
@@ -55,7 +55,7 @@ export default function HomePage() {
                   size="lg"
                   className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 text-lg font-semibold"
                 >
-                  Lihat Menu Lengkap (45 Varian)
+                  Semua Menu
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </Link>

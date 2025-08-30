@@ -35,7 +35,7 @@ export default function ProductModal({ product, onClose }: ProductModalProps) {
           {product.isPopular && (
             <Badge className="absolute top-4 left-4 bg-gradient-to-r from-yellow-400 to-orange-400 text-white border-0 shadow-lg font-semibold">
               <Star className="mr-1 h-3 w-3 fill-current" />
-              Populer
+              Pilihan
             </Badge>
           )}
           <Badge

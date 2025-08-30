@@ -15,19 +15,19 @@ export default function Header() {
             </div>
             <div>
               <h1 className="text-2xl lg:text-3xl font-serif font-bold bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
-                Makaroni Sangar
+                Sanz Snack Indonesia
               </h1>
               <p className="text-gray-600 text-sm font-medium">Pedasnya Bikin Gahar</p>
             </div>
           </div>
 
-          <Button
+          {/* <Button
             onClick={sendGeneralWhatsAppMessage}
             className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 font-medium"
           >
             <MessageCircle className="mr-2 h-4 w-4" />
             Chat WhatsApp
-          </Button>
+          </Button> */}
         </div>
       </div>
       <div className="absolute inset-0 opacity-30">
