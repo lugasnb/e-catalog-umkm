@@ -68,8 +68,8 @@ export default function HomePage() {
 
       <GallerySection />
       <AboutSection />
-      <TestimonialSection />
-      <FAQSection />
+      {/* <TestimonialSection />
+      <FAQSection /> */}
       <Footer />
     </div>
   )
