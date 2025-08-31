@@ -17,7 +17,9 @@ export default function Header() {
               <h1 className="text-2xl lg:text-3xl font-serif font-bold bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
                 Sanz Snack Indonesia
               </h1>
-              <p className="text-gray-600 text-sm font-medium">Pedasnya Bikin Gahar</p>
+              <p className="text-gray-600 text-sm font-medium">Gigit, rasain, dan nikmati renyahnya Sanz Snack – cemilan klasik dengan sensasi unik
+                
+              </p>
             </div>
           </div>
 
