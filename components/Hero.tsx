@@ -7,7 +7,7 @@ import { useState } from "react"
 
 export default function Hero() {
   const [isEditing, setIsEditing] = useState(false)
-  const [blackText, setBlackText] = useState("Pedas Gurihnya Langsung Nendang di Lidah")
+  const [blackText, setBlackText] = useState("Sanz Snack, Cemilan Ringan yang Membawa Sensasi Nikmat di Setiap Gigitan")
   const [orangeText, setOrangeText] = useState("")
 
   const handleSave = () => {
@@ -15,7 +15,7 @@ export default function Hero() {
   }
 
   const handleCancel = () => {
-    setBlackText("Pedas Gurihnya Langsung Nendang di Lidah")
+    setBlackText("Sanz Snack, Cemilan Ringan yang Membawa Sensasi Nikmat di Setiap Gigitan")
     setOrangeText("")
     setIsEditing(false)
   }
@@ -87,7 +87,7 @@ export default function Hero() {
 
           {/* Existing code */}
           <p className="text-lg lg:text-xl text-gray-600 mb-10 max-w-2xl mx-auto leading-relaxed font-medium">
-            Kelezatan makaroni berpadu dengan rasa nusantara, hadir dari bahan premium dan racikan bumbu pilihan.
+            Kelezatan cemilan berpadu dengan bumbu tertentu, dibuat dari bahan premium untuk menemani keseharianmu.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button

@@ -38,7 +38,7 @@ export default function HomePage() {
           <div className="text-center mb-16">
             <h3 className="text-3xl lg:text-4xl font-serif font-bold text-gray-900 mb-4">Menu Pilihan Terpopuler</h3>
             <p className="text-gray-600 max-w-2xl mx-auto text-lg font-medium">
-              Setiap varian makaroni dibuat dengan resep rahasia dan bumbu pilihan untuk pengalaman kuliner terbaik.
+              Setiap varian cemilan diracik dengan resep istimewa dan bumbu pilihan, menjadikan setiap gigitan pengalaman tak terlupakan.
             </p>
           </div>
 
