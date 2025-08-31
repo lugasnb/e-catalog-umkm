@@ -14,19 +14,19 @@ const galleryImages = [
   {
     id: 2,
     src: "/Galeri2.jpg",
-    alt: "Bahan-bahan segar",
-    title: "Bahan Berkualitas",
+    alt: "Dapur",
+    title: "Dapur",
   },
   {
     id: 3,
     src: "/Galeri3.jpg",
-    alt: "Proses packaging",
-    title: "Packaging Higienis",
+    alt: "",
+    title: "",
   },
   {
     id: 4,
     src: "/Galeri4.jpg",
-    alt: "Pelanggan puas",
+    alt: "P",
     title: "Pelanggan Puas",
   },
   {
@@ -37,7 +37,7 @@ const galleryImages = [
   },
   {
     id: 6,
-    src: "/Galeri6.jpg",
+    src: "/Galeri7.jpg",
     alt: "Dapur bersih",
     title: "Dapur Bersih",
   },
