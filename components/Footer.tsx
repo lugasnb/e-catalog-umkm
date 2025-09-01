@@ -25,8 +25,7 @@ export default function Footer() {
               <div className="w-12 h-12 rounded-xl flex items-center justify-center">
                 <img 
                   src="/sanz-logo.png" 
-                  alt="Logo" 
-                  // className="h-6 w-6 object-contain" 
+                  alt="Logo"
                 />
               </div>
               <h4 className="font-serif font-bold text-xl">Sanz Snack Indonesia</h4>

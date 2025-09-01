@@ -13,8 +13,7 @@ export default function Header() {
             <div className="w-15 h-15 rounded-xl flex items-center justify-center">
               <img 
                 src="/sanz-logo.png" 
-                alt="Logo" 
-                // className="h-6 w-6 object-contain" 
+                alt="Logo"  
               />
             </div>
             <div>
