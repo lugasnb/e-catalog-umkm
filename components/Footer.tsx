@@ -22,14 +22,17 @@ export default function Footer() {
           {/* Brand & Deskripsi */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-orange-500 to-red-500 rounded-xl flex items-center justify-center">
-                <Sparkles className="text-white h-5 w-5" />
+              <div className="w-12 h-12 rounded-xl flex items-center justify-center">
+                <img 
+                  src="/sanz-logo.png" 
+                  alt="Logo" 
+                  // className="h-6 w-6 object-contain" 
+                />
               </div>
-              <h4 className="font-serif font-bold text-xl">Makaroni Sangar</h4>
+              <h4 className="font-serif font-bold text-xl">Sanz Snack Indonesia</h4>
             </div>
             <p className="text-gray-300 leading-relaxed mb-4 font-medium">
-              Makaroni renyah dengan bumbu khas nusantara. Dibuat dari bahan premium,
-              halal, higienis, dan harga bersahabat. Pedasnya bikin gahar, bikin nagih!
+              Gigit, Rasain, dan Nikmati Renyahnya Sanz Snack – Cemilan Klasik dengan Sensasi Unik
             </p>
             <Button
               onClick={sendGeneralWhatsAppMessage}
@@ -50,7 +53,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="h-4 w-4" />
-                <span className="font-medium">makaronisangar@gmail.com</span>
+                <span className="font-medium">@gmail.com</span>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin className="h-4 w-4" />

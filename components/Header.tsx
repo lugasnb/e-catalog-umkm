@@ -10,15 +10,19 @@ export default function Header() {
       <div className="container mx-auto px-6 py-4">
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
           <div className="flex items-center gap-4">
-            <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-xl flex items-center justify-center shadow-lg">
-              <Sparkles className="text-white h-6 w-6" />
+            <div className="w-15 h-15 rounded-xl flex items-center justify-center">
+              <img 
+                src="/sanz-logo.png" 
+                alt="Logo" 
+                // className="h-6 w-6 object-contain" 
+              />
             </div>
             <div>
               <h1 className="text-2xl lg:text-3xl font-serif font-bold bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
                 Sanz Snack Indonesia
               </h1>
-              <p className="text-gray-600 text-sm font-medium">Gigit, rasain, dan nikmati renyahnya Sanz Snack – cemilan klasik dengan sensasi unik
-                
+              <p className="text-gray-600 text-sm font-medium">
+                Gigit, Rasain, dan Nikmati Renyahnya Sanz Snack – Cemilan Klasik dengan Sensasi Unik
               </p>
             </div>
           </div>
