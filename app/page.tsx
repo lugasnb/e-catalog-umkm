@@ -49,7 +49,7 @@ export default function HomePage() {
               ))}
             </div>
 
-            <div className="text-center">
+            {/*<div className="text-center">
               <Link href="/menu">
                 <Button
                   size="lg"
@@ -60,7 +60,7 @@ export default function HomePage() {
                 </Button>
               </Link>
             </div>
-          </div>
+          </div>*/}
         </div>
       </section>
 
