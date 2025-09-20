@@ -62,7 +62,7 @@ export default function Footer() {
                   <div className="p-2 rounded-full ring-1 ring-gray-600">
                     <Mail className="h-5 w-5" />
                   </div>
-                  <span className="font-medium">@gmail.com</span>
+                  <span className="font-medium">sanzsnackindonesia@gmail.com</span>
                 </div>
                 <div className="flex items-center gap-3 justify-center md:justify-start">
                   <div className="p-2 rounded-full ring-1 ring-gray-600">
