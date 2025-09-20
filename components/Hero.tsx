@@ -31,7 +31,7 @@ export default function Hero() {
               <MessageCircle className="mr-2 h-5 w-5" />
               Pesan via WhatsApp
             </Button>
-            <Button
+            {/* <Button
               size="lg"
               variant="outline"
               className="border-2 border-orange-500 text-orange-600 hover:bg-orange-50 px-8 py-4 rounded-full bg-transparent font-semibold"
@@ -40,7 +40,7 @@ export default function Hero() {
                 <Eye className="inline-block mr-2 h-5 w-5" />
                 Lihat Menu
               </a>
-            </Button>
+            </Button> */}
           </div>
         </div>
       </div>
