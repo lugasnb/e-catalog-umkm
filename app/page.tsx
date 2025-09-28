@@ -10,9 +10,9 @@ import Hero from "@/components/Hero"
 import ProductCard from "@/components/ProductCard"
 import ProductModal from "@/components/ProductModal"
 import AboutSection from "@/components/AboutSection"
-import TestimonialSection from "@/components/TestimonialSection"
+// import TestimonialSection from "@/components/TestimonialSection"
 import GallerySection from "@/components/GallerySection"
-import FAQSection from "@/components/FAQSection"
+// import FAQSection from "@/components/FAQSection"
 import Footer from "@/components/Footer"
 import { Button } from "@/components/ui/button"
 
@@ -48,8 +48,7 @@ export default function HomePage() {
                 <ProductCard key={product.id} product={product} onDetailClick={openProductDetail} />
               ))}
             </div>
-
-            {/* <div className="text-center">
+            <div className="text-center">
               <Link href="/menu">
                 <Button
                   size="lg"
@@ -59,7 +58,7 @@ export default function HomePage() {
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </Link>
-            </div> */}
+            </div>
           </div>
         </div>
       </section>
@@ -68,8 +67,8 @@ export default function HomePage() {
 
       <GallerySection />
       <AboutSection />
-      {/* <TestimonialSection />
-      <FAQSection /> */}
+      {/* <TestimonialSection /> */}
+      {/* <FAQSection /> */}
       <Footer />
     </div>
   )

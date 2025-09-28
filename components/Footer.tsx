@@ -93,7 +93,7 @@ export default function Footer() {
             </div>
 
             {/* Kontak KKM */}
-            <div>
+            {/* <div>
               <h4 className="font-serif font-bold text-lg mb-4 text-orange-400">
                 Kontak KKM
               </h4>
@@ -112,7 +112,7 @@ export default function Footer() {
                     kkmkarangampelkidul@gmail.com
                   </span>
                 </div>
-                {/* Sosial Media KKN */}
+                
                 <div className="flex gap-4 mt-4 justify-center md:justify-start">
                   <a
                     href="https://instagram.com/kkm37.karangampelkidul"
@@ -140,7 +140,7 @@ export default function Footer() {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Jam Operasional */}
             <div>
