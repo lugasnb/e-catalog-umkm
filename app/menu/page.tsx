@@ -9,8 +9,8 @@ import ProductCard from "@/components/ProductCard"
 import ProductModal from "@/components/ProductModal"
 import { Button } from "@/components/ui/button"
 
-const categories = ["Semua", "Tradisional", "Western", "Asian Fusion", "Seafood", "Vegetarian", "Premium"]
 
+const categories = ["Semua"]
 export default function MenuPage() {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null)
   const [selectedCategory, setSelectedCategory] = useState("Semua")
